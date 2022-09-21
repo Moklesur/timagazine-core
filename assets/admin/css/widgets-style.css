@@ -1,0 +1,122 @@
+.timagazine-wrap a,.timagazine-wrap h4,.timagazine-wrap .panel-title{
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.timagazine-wrap .row,.timagazine-wrap .accordion-wrap{
+  margin: 0 -15px;
+  overflow: hidden;
+}
+.timagazine-wrap small,.timagazine-wrap h2>label{
+  font-weight: normal;
+}
+.timagazine-wrap h2>label{
+  margin-bottom: 10px;
+  display: block;
+}
+.timagazine-wrap h5{
+  font-size: 1.1em;
+}
+.timagazine-wrap input[type=number].tiny-text {
+  width: 60px;
+}
+.timagazine-wrap h5 small{
+  font-size: .9em;
+}
+.timagazine-wrap .full-width{
+  width: 100%;
+  overflow: hidden;
+}
+.timagazine-wrap .col-3{
+  width: 33.333%;
+  float: left;
+  margin-bottom: 10px;
+  padding: 0 15px;
+}
+.timagazine-wrap .accordion-fix{
+  margin-top: 50px;
+}
+.timagazine-wrap .accordion-fix .panel-title{
+  font-size: 1.3em;
+}
+.timagazine-wrap .accordion-fix .panel h4 {
+  font-size: 1.2em;
+  margin: 1.33em 0;
+}
+.timagazine-wrap .accordion-fix .panel-title{
+  display: block;
+  cursor: pointer;
+  position: relative;
+  padding: 15px;
+  background: #fafafa;
+  border: 1px solid #eee;
+  margin: 0 0 20px;
+  outline: none;
+}
+.timagazine-wrap .accordion-fix .panel-title,.timagazine-wrap .accordion-fix  .panel-title:hover {
+  background: #f4b738;
+  border-color: #f4b738;
+  color: #fff;
+}
+.timagazine-wrap .content {
+  padding: 1em 2.2em 2.7em;
+  border-top: 0;
+  overflow: auto;
+}
+.timagazine-wrap .panel {
+  background: #ffffff;
+  color: #333333;
+}
+.timagazine-wrap .ui-helper-reset {
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1.3;
+  text-decoration: none;
+  font-size: 100%;
+  list-style: none;
+}
+.timagazine-wrap .chosen-container{
+  margin-top: 15px;
+}
+.widget-inside .timagazine-wrap .content{
+  display: block;
+}
+.widget-inside .timagazine-wrap .col-3{
+  width: 100%;
+  padding: 0;
+}
+.timagazine-wrap .widget-inside h5{
+  margin: 0 0 15px;
+}
+.widget-inside .timagazine-wrap .accordion-fix .panel-title {
+  background: #f4b738;
+  border-color: #f4b738;
+  color: #fff;
+}
+.widget-inside .timagazine-wrap .accordion-contents{
+  margin-bottom: 20px;
+}
+.timagazine-wrap .accordion-contents{
+  padding: 0 15px;
+}
+@media(max-width:767px){
+  .timagazine-wrap .col-3{
+    width: 100%;
+  }
+}
+.timagazine_author_image_btn{
+  margin-top:5px;
+}
+.timagazine-custom_media_image{
+  margin:0;
+  padding:0;
+  max-width:100px;
+  float:left;
+  display:inline-block;
+}
+.timagazine-author-link-label{
+  margin-bottom: -4px;
+}
